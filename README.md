@@ -1,2 +1,30 @@
-# javascript-test-0001-final-13901-rohit
-Final Project Assignment - This repository contains the complete final project code and documentation.
+let n = 5;
+for (let i = 1; i <= n; i++) {
+    let row = "";
+    for (let j = 1; j <= n - i; j++) {
+        row += " ";
+    }
+    for (let j = 1; j <= (2 * i - 1); j++) {
+        if (j == 1 || j == (2 * i - 1)) {
+            row += "*";
+        } else {
+            row += " ";
+        }
+    }
+    console.log(row);
+}
+for (let i = n - 1; i >= 1; i--) {
+    let row = "";
+
+    for (let j = 1; j <= n - i; j++) {
+        row += " ";
+    }
+    for (let j = 1; j <= (2 * i - 1); j++) {
+        if (j == 1 || j == (2 * i - 1)) {
+            row += "*";
+        } else {
+            row += " ";
+        }
+    }
+    console.log(row);
+}
