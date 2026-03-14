@@ -12,7 +12,6 @@ for (let i = 1; i <= n; i++) {
             row += " ";
         }
     }
-
     console.log(row);
 }
 for (let i = n - 1; i >= 1; i--) {
@@ -27,6 +26,5 @@ for (let i = n - 1; i >= 1; i--) {
             row += " ";
         }
     }
-
     console.log(row);
 }
